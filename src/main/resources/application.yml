@@ -31,7 +31,7 @@ spring:
     driver-class-name: ${datasource.driver-class-name:com.mysql.jdbc.Driver}
     url: ${datasource.url:jdbc:mysql://localhost:3306/sms}
     username: ${datasource.username:root}
-    password: ${datasource.password:}
+    password: ${datasource.password:password}
     test-while-idle: true
     test-on-borrow: true
     validation-query: SELECT 1
